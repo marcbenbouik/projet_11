@@ -1,0 +1,29 @@
+.bubbleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem;
+    flex: 1;
+
+    .greenCircle {
+        width: 100px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: rgb(0, 188, 119);
+        border-image: initial;
+        border-radius: 50%;
+        padding: 1rem;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .contentDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+}

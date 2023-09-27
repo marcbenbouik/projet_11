@@ -1,0 +1,20 @@
+article {
+    height: 400px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    background-image: url(../../img/bank-tree.jpeg);
+    background-position: 0% 33%;
+
+    div {
+        position: absolute;
+        right: 50px;
+        top: 50px;
+        width: 300px;
+        margin: 2rem;
+        background: white;
+        padding: 2rem;
+        text-align: left;
+        font-size: 1.2rem;
+    }
+}
