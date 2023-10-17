@@ -1,10 +1,9 @@
-import banniere from "../../img/bank-tree.jpeg"
 import "../banner/banner.scss"
 
 function Banner() {
     return (
-        <article>
-            <div>
+        <article className="bannerArticle">
+            <div className="bannerDiv">
                 <h1>No fees.<br />
                     No minimum deposit.<br />
                     High interest rates.</h1>

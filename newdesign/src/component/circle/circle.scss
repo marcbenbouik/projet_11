@@ -1,4 +1,4 @@
-.bubbleContainer {
+.circleContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,11 +19,27 @@
         }
     }
 
-    .contentDiv {
+    .circleContentDiv {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
 
+        h2 {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+            margin-top: 20px;
+        }
+
+        p {
+            margin: 16px 0px;
+        }
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .circleContainer {
+        flex-direction: column;
     }
 }

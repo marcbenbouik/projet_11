@@ -1,6 +1,18 @@
-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+.homeDiv {
+    font-family: Arial, Helvetica, sans-serif;
+
+    .circleSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .homeDiv {
+        .circleSection {
+            flex-direction: column;
+        }
+    }
 }

@@ -1,0 +1,40 @@
+.modalBackground {
+    background-color: white;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 20px;
+
+    .modalForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-weight: bold;
+        font-size: 1.25rem;
+
+        .modalInput {
+            font-size: 1.2rem;
+            padding: 5px;
+        }
+    }
+
+    .modalButton {
+        border-color: #00bc77;
+        background-color: #00bc77;
+        color: #fff;
+        text-decoration: underline;
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding: 8px;
+    }
+
+    //     position: absolute;
+    //     top: 20px;
+    //     left: calc(50vw - 100px);
+}
