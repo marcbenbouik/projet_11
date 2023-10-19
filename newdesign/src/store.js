@@ -4,7 +4,6 @@ const initialState = {
     isConnected: false,
     token: null,
     user: null,
-    stay: false
 }
 
 const connectUser = { type: 'connect' }
@@ -45,12 +44,6 @@ function reducer(state, action) {
         return {
             ...state,
             user: action.payload
-        }
-    }
-    if (action.type === 'stayConnect') {
-        return {
-            ...state,
-            stay: true
         }
     }
     return state
